@@ -1,0 +1,146 @@
+body{
+    background-color: #13181D;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Helvetica, Arial,sans-serif;
+    letter-spacing: 2px;
+    color: #FEF8DD;
+}
+
+p{
+    color: #FEF8DD;
+}
+
+a{
+    text-decoration: none;
+    color: #FEF8DD;
+}
+
+a:hover{
+    color: #c9542d;
+}
+
+@font-face{
+    font-family: "mirai";
+    src: url(../font/mirai.ttf);
+}
+
+.tittle{
+    text-align: center;
+    width: 20rem;
+    color: #FEF8DD;
+    font-size: 2.5rem;
+    border-bottom: solid #c9542d;
+    border-width: 1rem;
+    line-height: 1.3rem;
+    margin: 30px 0;
+}
+
+.container{
+    padding: 3rem;
+}
+
+.btn-outline-warning:hover{
+    color: #997302;
+    background-color: #F5D273;
+    border-color: #FFC107;
+}
+
+.social i{
+    padding: 10px;
+    color: azure;
+    border: solid 0.1rem #303030;
+}
+
+#header{
+    background-image: url(../images/banner6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#header-text{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+#header-text h1{
+    font-family: 'mirai', sans-serif;
+    font-size: 4rem;
+}
+
+.card{
+    background-color: #4e50522a;
+    color: azure;
+}
+
+.carousel-item{
+    height: 18rem;
+    background-color: #9E9DA7;
+}
+
+#carousel-1{
+    background-image: url(../images/slide.jpg);
+    background-position: center top 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#carousel-2{
+    background-image: url(../images/slide2.jpg);
+    background-position: center top 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#carousel-3{
+    background-image: url(../images/slide3.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#CTA{
+    background-color: #9e9da714;
+}
+
+#newsletter{
+    text-align: center;
+    border: solid 0.2rem #ccc;
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+#pre-sale{
+    background-color: #9e9da714;
+}
+
+.card-gallery.image-gallery{
+    column-count: 3;
+    column-gap: 1rem;
+}
+
+.cam-icon{
+    font-size: 4rem;
+}
+
+img.gallery {
+    width: calc(100% + 5px);
+    max-width: initial;
+}
+
+input#exampleFormControlInput1.form-control{
+    width: 20rem;
+}
+
+.footer-icon{
+    font-size: 4rem;
+    text-decoration: none;
+    color: #30303075;
+}
+
+.footer-icon:hover{
+    color: #9e9da73d;
+}
